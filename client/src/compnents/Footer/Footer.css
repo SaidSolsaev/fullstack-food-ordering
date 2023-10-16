@@ -1,0 +1,109 @@
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #fde4e4;
+}
+
+.footer-col{
+    width: 25%;
+    flex: 0 0 auto;
+    height: 100%;
+}
+
+.footer-col h4{
+    color: #212245;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-col p{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer-col__company{
+    text-align: left !important;
+}
+
+.footer-col__company h4{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.footer-col__company p{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer-col__company img{
+    margin-bottom: 15px;
+    
+}
+.footer-col__title {
+    color: #212245;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.footer-col__list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+    list-style-type: none;
+}
+
+.footer-col__list span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212245;
+}
+
+.footer-col__list li {
+    padding: 0.5rem 1rem;
+    padding-left: 0;
+}
+
+.contactList{
+    display: flex;
+    gap: 15px;
+}
+
+.contactList span{
+    font-size: 20px;
+    color: #df2020;
+}
+
+.footer-col__list li p{
+    margin-bottom: 15px;
+}
+
+
+.newsletter{
+    padding: 5px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter input{
+    outline: none;
+    background: transparent;
+    border: none;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.newsletter span{
+    background-color: #df2020;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
