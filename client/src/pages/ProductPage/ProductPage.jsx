@@ -13,8 +13,6 @@ export default function ProductPage() {
     var categoryId = data.category;
      
     const category = useFetch(`/categories/${categoryId}`).data;
-    
-    var sameProds = category.products;
 
     return (
 
